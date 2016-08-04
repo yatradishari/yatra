@@ -1,7 +1,7 @@
 <?php namespace App\Model;
 
 use Illuminate\Database\Eloquent\Model;
-//use App\Presenters\DatePresenter;
+
 
 class Destination extends Model  {
 
@@ -15,5 +15,8 @@ class Destination extends Model  {
 	protected $table = 'destinations';
 
  	
-    
+    public function state_name()
+	{
+	  return $this->hasOne('App\Model\State', 'id', 'state_id');
+	}
 }

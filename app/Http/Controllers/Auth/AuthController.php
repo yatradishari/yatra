@@ -55,7 +55,7 @@ class AuthController extends Controller {
 			if($user_type=="1")
 			{
 				//dd("a");
-				return Redirect::intended('dashboard');
+				return Redirect::intended('admin/dashboard');
 			}
 			else
 			{

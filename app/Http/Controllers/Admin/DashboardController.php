@@ -24,7 +24,7 @@ class DashboardController extends Controller {
 	 
 	public function getIndex()
 	{
-		dd("dash");
+		return View('admin.dashboard');
 		
 	}
 

@@ -1,10 +1,10 @@
 <?php 
-    function short($text)
+    function short($text,$limit=100)
 	{
 		$length=strlen($text);
-		if($length >100)
+		if($length >$limit)
 		{
-			$new_text=substr($text,0,100)."...";
+			$new_text=substr($text,0,$limit)."...";
 		}
 		else
 		{

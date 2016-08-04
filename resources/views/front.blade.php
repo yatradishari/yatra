@@ -13,21 +13,21 @@
 	<title>Yatradishari</title>
 
 	
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/bootstrap.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/ionicons.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/owl.carousel.css') }}">
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/owl.theme.css') }}">
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/flexslider.css') }}" type="text/css">
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/main.css') }}">	
-	<link rel="stylesheet" href="{{ asset('/front/assets/css/custom.css') }}">	
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/ionicons.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/owl.carousel.css') }}">
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/owl.theme.css') }}">
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/flexslider.css') }}" type="text/css">
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/main.css') }}">	
+	<link rel="stylesheet" href="{{ asset('/public/front/assets/css/custom.css') }}">	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
-				<script src="/front/assets/js/html5shiv.js"></script>
-				<script src="/front/assets/js/respond.js"></script>
+				<script src="/public/front/assets/js/html5shiv.js"></script>
+				<script src="/public/front/assets/js/respond.js"></script>
 			<![endif]-->
 
 			<!--[if IE 8]>
-		    	<script src="/front/assets/js/selectivizr.js"></script>
+		    	<script src="/public/front/assets/js/selectivizr.js"></script>
 		    <![endif]-->
 </head>
 <body>
@@ -49,12 +49,12 @@
 	</footer>
 
 
-	<script src="{{ asset('/front/assets/js/jquery-1.11.2.min.js') }}"></script>
-	<script src="{{ asset('/front/assets/js/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('/front/assets/js/owl.carousel.min.js') }}"></script>
-	<script src="{{ asset('/front/assets/js/contact.js') }}"></script>
-	<script src="{{ asset('/front/assets/js/jquery.flexslider.js') }}"></script>
-	<script src="{{ asset('/front/assets/js/script.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/jquery-1.11.2.min.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/owl.carousel.min.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/contact.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/jquery.flexslider.js') }}"></script>
+	<script src="{{ asset('/public/front/assets/js/script.js') }}"></script>
 
 
 
