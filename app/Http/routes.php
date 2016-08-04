@@ -15,13 +15,15 @@ Route::get('/', 'WelcomeController@index');
 
 //Route::get('home', 'HomeController@index');
 
+
+
+Route::controller('destination', 'DestinationController');
+
+Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){	
+	Route::controller('admin/dashboard'	, 'DashboardController' 	); 	
+});
+
 Route::controllers([
 	'admin' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-
-Route::controller('destination', 'DestinationController');
-
-//Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){
-
-//});

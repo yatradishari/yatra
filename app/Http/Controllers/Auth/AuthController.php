@@ -54,13 +54,13 @@ class AuthController extends Controller {
 			$user_type=Auth::user()->user_type;
 			if($user_type=="1")
 			{
-				dd("a");
-				return Redirect::intended('/admin/dashboard');
+				//dd("a");
+				return Redirect::intended('dashboard');
 			}
 			else
 			{
-				dd("a1");
-				return Redirect::intended('/customer/dashboard');
+				//dd("a1");
+				//return Redirect::intended('/customer/dashboard');
 			}
 		} else {
 			// validation not successful, send back to form 
