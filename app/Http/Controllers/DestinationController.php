@@ -34,12 +34,12 @@ class DestinationController extends Controller {
 	 */
 	public function getIndex()
 	{
-		$destination=Destination::where('visibility',1)						 
+		$destinations=Destination::where('visibility',1)						 
 						  ->orderBy('location_name','ASC')					 
-						  ->get();	
+						  ->paginate(4);	
 		//dd($destination->toArray());				  
 		//return view('front.destination')->with('destination'=>$destination);
-		return View('front.destination', [ 'destination' => $destination]);
+		return View('front.destination', [ 'destinations' => $destinations]);
 	}
 
 }

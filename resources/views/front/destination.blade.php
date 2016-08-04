@@ -9,7 +9,10 @@
 			Lorem Ipsum is simply dummy text of the industry.
 		</p> -->
 		<div class="row">
-			@foreach($destination as $destination)
+			<div class="col-sm-12 col-xs-12">
+				{!! str_replace('/?', '?', $destinations->render()) !!}
+			</div>
+			@foreach($destinations as $destination)
 			<div class="col-sm-3 col-xs-6">
 				<div class="who">
 					<img src="{{asset('public/front/assets/images/ab-1.png')}}"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
@@ -22,6 +25,7 @@
 				</div>
 			</div> <!-- /.col-sm-3 -->
 			@endforeach
+			
 		</div> <!-- /.row -->
 	</div> <!-- /.container -->
 </section> <!-- /.wwa -->
