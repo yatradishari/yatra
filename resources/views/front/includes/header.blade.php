@@ -13,8 +13,8 @@
 <!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="destination">offbeat</a></li>
-			<li><a href="about.html">Popular</a></li>
+			<li class="active"><a href="destination">Place to Go</a></li>
+			<li><a href="about.html">Where to stay</a></li>
 			<!-- <li><a href="services.html">services</a></li>-->
 			<li><a href="contact.html">contact</a></li>
 		</ul> <!-- /.nav -->

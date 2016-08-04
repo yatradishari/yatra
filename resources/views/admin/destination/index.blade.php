@@ -29,8 +29,8 @@
 								<tr>
 									<td>3326</td>
 									<td>
-										@if($destination->primary_image_id=='')
-											<image src="../admin/images/no_image.png" width="80" />
+										@if($destination->primary_image_id=='')											
+											<img src="{{asset('public/admin/images/no_image.png')}}" width="80"  alt="{{ $destination->location_name}}">
 										@endif
 									</td>
 									<td>{{ $destination->state_name->name }}</td>
@@ -43,11 +43,23 @@
 										@endif									
 									</td>
 									<td>{{ short($destination->description,50) }}</td>
-									<td>Edit</td>
+									<td>
+										<p>
+											<a href="{{ URL::to('/admin/destination/edit/'.$destination->id) }}">
+												<button class="btn btn-primary btn-xs" type="button">Edit</button>
+											</a>
+										</p>
+										<p>
+											<a onclick="return confirm('Are you sure?')" href="{{ URL::to('/admin/destination/delete/'.$destination->id) }}">
+												<button class="btn btn-danger btn-xs" type="button">Delete</button>
+											</a>
+										</p>										
+										<p><button class="btn btn-primary btn-xs" type="button">Add Image</button></p>
+									</td>
 								</tr>
 							@endforeach
 							<tr>
-								<td colspan="6">
+								<td colspan="6">									
 									<button class="btn btn-primary" type="button" onclick="window.location.href='destination/create'">Add</button>
 								</td>
 							</tr>

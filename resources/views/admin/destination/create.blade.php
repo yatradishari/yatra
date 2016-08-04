@@ -46,12 +46,12 @@
 								<label>Visibility</label>
 								<div class="radio">
 									<label>
-										<input type="radio" name="status" id="status1" value="1" checked>Visible
+										<input type="radio" name="visibility" id="visibility1" value="1" checked>Visible
 									</label>
 								</div>
 								<div class="radio">
 									<label>
-										<input type="radio" name="status" id="status2" value="0">Not Visible
+										<input type="radio" name="visibility" id="visibility2" value="0">Not Visible
 									</label>
 								</div>								
 							</div>

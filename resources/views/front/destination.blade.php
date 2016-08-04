@@ -12,7 +12,7 @@
 			@foreach($destination as $destination)
 			<div class="col-sm-3 col-xs-6">
 				<div class="who">
-				<img src="{{asset('public/front/assets/images/ab-1.png')}}"  alt="{{ $destination->location_name}}" class="img-responsive who-img">					
+					<img src="{{asset('public/front/assets/images/ab-1.png')}}"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
 					<h2 class="location_heading">
 						{{ $destination->location_name}}
 					</h2>

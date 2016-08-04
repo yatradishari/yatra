@@ -12,10 +12,13 @@
 			<!-- /input-group -->
 		</li>
 		<li>
-			<a href=" {{ URL::to('/admin/dashboard') }}" ><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+			<a href="{{ URL::to('/admin/dashboard') }}" ><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
 		</li>
 		<li>
-			<a href=" {{ URL::to('/admin/destination') }}" ><i class="fa fa-dashboard fa-fw"></i> Destination</a>
+			<a href="{{ URL::to('/admin/destination') }}" ><i class="fa fa-dashboard fa-fw"></i> Destination</a>
+		</li>
+		<li>
+			<a href=" {{ URL::to('/admin/holidayhome') }}" ><i class="fa fa-dashboard fa-fw"></i> Holiday Home</a>
 		</li>
 		<li>
 			<a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
