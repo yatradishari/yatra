@@ -22,6 +22,7 @@ Route::controller('destination', 'DestinationController');
 Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){	
 	Route::controller('admin/dashboard'	, 'DashboardController' 	); 	
 	Route::controller('admin/destination'	, 'DestinationController' 	); 	
+	Route::controller('admin/holidayhome'	, 'HolidayhomeController' 	); 	
 });
 
 Route::controllers([

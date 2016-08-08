@@ -8,9 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Model\State;
 use App\Model\Destination;
-use Illuminate\Support\Facades\Input;
 
-class DestinationController extends Controller {
+class HolidayhomeController extends Controller {
 
 	//protected $dashboard;
 	
@@ -27,6 +26,7 @@ class DestinationController extends Controller {
 	 
 	public function getIndex()
 	{
+		dd("a");
 		$destination=Destination::where('deleted',0)
 					->with('state_name')
 					->get();		
@@ -36,7 +36,7 @@ class DestinationController extends Controller {
 		
 	}
 	
-	public function getCreate()
+	/*public function getCreate()
 	{
 		$state=State::where('status',1)
 					->orderBy('name','ASC')
@@ -112,41 +112,6 @@ class DestinationController extends Controller {
 		$destination->save();
 		
 		return redirect('admin/destination');
-	}
+	}*/
 	
-	public function getUploadimage()
-	{
-		//dd("a");
-		//$destination=Destination::where('deleted',0)
-		//			->with('state_name')
-		//			->get();		
-		return View('admin.destination.uploadimage');
-		
-	}
-	
-	public function postStroreimage(Request $request)
-	{
-		
-		$input = Input::all();
-		dd($input);
-		// $file = Input::file('image');
-	//	$image->filePath = $name;
-		$file = array_get($input,'destination_image');
-		
-		$destinationPath = 'public/uploads';
-		// GET THE FILE EXTENSION
-		$image_ext = $file->getClientOriginalExtension();
-		// RENAME THE UPLOAD WITH RANDOM NUMBER
-		$image_only_name=time().rand(1,11111);
-		//$image_ext = $request->file('destination_image')->getClientOriginalExtension();
-		$final_image_name=$image_only_name.".".$image_ext;
-		// MOVE THE UPLOADED FILES TO THE DESTINATION DIRECTORY
-		$upload_success = $file->move($destinationPath, $final_image_name);
-
-
-       // $file->move(public_path().'/images/', $final_image_name);
-		dd($final_image_name);
-
-    
-	}
 }
