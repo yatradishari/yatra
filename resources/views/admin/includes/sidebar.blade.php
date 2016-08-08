@@ -28,8 +28,12 @@
 			</ul>
 			<!-- /.nav-second-level -->
 		</li>
+		
 		<li>
 			<a href=" {{ URL::to('/admin/holidayhome') }}" ><i class="fa fa-dashboard fa-fw"></i> hh</a>
+		</li>
+		<li>
+			<a href="{{ URL::to('/admin/settings') }}" ><i class="fa fa-dashboard fa-fw"></i> Settings</a>
 		</li>
 		<li>
 			<a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>

@@ -16,10 +16,19 @@
 			<div class="col-sm-3 col-xs-6">
 				<div class="who">
 					@if(isset($destination->primary_image->image_name))
-					<img src="<?php echo env('UPLOADS').$destination->primary_image->image_name;?>"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
+						<img src="<?php echo env('UPLOADS').$destination->primary_image->image_name;?>"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
 					@else
 						<img src="public/admin/images/no_image.png"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
-						@endif
+					@endif
+					<h2>
+						<span class="col-sm-3 col-xs-6"><a href="">
+							<img src="public/admin/images/thumbs_up.png"  alt="thumbs up" class="img-responsive who-img">
+						</a></span>
+						<span class="col-sm-3 col-xs-6"><a href="">
+							<img src="public/admin/images/thumbs_down.png"  alt="thumbs up" class="img-responsive who-img">
+						</a></span>
+					</h2>
+					
 					<h2 class="location_heading">
 						{{ $destination->location_name}}
 					</h2>
