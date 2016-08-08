@@ -29,8 +29,11 @@
 								<tr>
 									<td>3326</td>
 									<td>
-										@if($destination->primary_image_id=='')											
+										@if(!isset($destination->primary_image->image_name))											
 											<img src="{{asset('public/admin/images/no_image.png')}}" width="80"  alt="{{ $destination->location_name}}">
+										@else
+											
+											<img src="../public/uploads/<?php echo $destination->primary_image->image_name;?>" width="80"  >
 										@endif
 									</td>
 									<td>{{ $destination->state_name->name }}</td>

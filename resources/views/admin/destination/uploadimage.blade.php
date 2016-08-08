@@ -17,9 +17,15 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<form action="stroreimage" role="form" name="add_destination" method="POST" enctype="multipart/form-data">
-							<input type="hidden" name="_token" value="{{ csrf_token() }}">
-							<input type="hidden" name="destination_id" value="1">
-							
+							<input type="hidden" name="_token" value="{{ csrf_token() }}">							
+							<div class="form-group">
+								<label>State</label>
+								<select name="destination_id" class="form-control">
+									@foreach($destinations as $destination)
+									<option value="{{ $destination->id }}">{{ $destination->location_name }}</option>
+									@endforeach									
+								</select>
+							</div>
 							<div class="form-group">
 								<label>Upload image</label>
 								<input type="file" name="destination_image" value="" class="form-control">								

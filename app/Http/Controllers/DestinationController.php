@@ -3,6 +3,8 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Model\Destination;
+use App\Model\State;
+use App\Model\Destinationimage;
 
 class DestinationController extends Controller {
 
@@ -35,9 +37,11 @@ class DestinationController extends Controller {
 	public function getIndex()
 	{
 		$destinations=Destination::where('visibility',1)						 
-						  ->orderBy('location_name','ASC')					 
+						 
+							->with('state_name','primary_image')	
+							 ->orderBy('location_name','ASC')		
 						  ->paginate(4);	
-		//dd($destination->toArray());				  
+		//	dd($destination->toArray());				  
 		//return view('front.destination')->with('destination'=>$destination);
 		return View('front.destination', [ 'destinations' => $destinations]);
 	}

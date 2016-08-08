@@ -15,7 +15,11 @@
 			@foreach($destinations as $destination)
 			<div class="col-sm-3 col-xs-6">
 				<div class="who">
-					<img src="{{asset('public/front/assets/images/ab-1.png')}}"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
+					@if(isset($destination->primary_image->image_name))
+					<img src="<?php echo env('UPLOADS').$destination->primary_image->image_name;?>"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
+					@else
+						<img src="public/admin/images/no_image.png"  alt="{{ $destination->location_name}}" class="img-responsive who-img">
+						@endif
 					<h2 class="location_heading">
 						{{ $destination->location_name}}
 					</h2>

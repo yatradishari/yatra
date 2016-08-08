@@ -14,8 +14,19 @@
 		<li>
 			<a href="{{ URL::to('/admin/dashboard') }}" ><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
 		</li>
+		
 		<li>
-			<a href="{{ URL::to('/admin/destination') }}" ><i class="fa fa-dashboard fa-fw"></i> dd</a>
+			<a href="#"><i class="fa fa-wrench fa-fw"></i> Destination<span class="fa arrow"></span></a>
+			<ul class="nav nav-second-level">
+				<li>
+					<a href="{{ URL::to('/admin/destination') }}">Destination List</a>
+				</li>
+				<li>
+					<a href="{{ URL::to('/admin/destination/uploadimage') }}">Images</a>
+				</li>
+				
+			</ul>
+			<!-- /.nav-second-level -->
 		</li>
 		<li>
 			<a href=" {{ URL::to('/admin/holidayhome') }}" ><i class="fa fa-dashboard fa-fw"></i> hh</a>

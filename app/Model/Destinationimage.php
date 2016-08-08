@@ -3,7 +3,7 @@
 use Illuminate\Database\Eloquent\Model;
 
 
-class Destination extends Model  {
+class Destinationimage extends Model  {
 
 	//use DatePresenter;
 
@@ -12,7 +12,7 @@ class Destination extends Model  {
 	 *
 	 * @var string
 	 */
-	protected $table = 'destinations';
+	protected $table = 'destination_image';
 
  	
     public function state_name()
@@ -22,6 +22,6 @@ class Destination extends Model  {
 	
 	public function primary_image()
 	{
-	  return $this->hasOne('App\Model\Destinationimage', 'id', 'primary_image_id');
+	  return $this->hasOne('App\Model\State', 'id', 'state_id');
 	}
 }

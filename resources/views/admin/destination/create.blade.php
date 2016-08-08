@@ -55,6 +55,19 @@
 									</label>
 								</div>								
 							</div>
+							<div class="form-group">
+								<label>Type</label>
+								<div class="radio">
+									<label>
+										<input type="radio" name="type" id="type1" value="1" checked>Offbeat
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="type" id="type2" value="2">Popular
+									</label>
+								</div>								
+							</div>
 							
 							<button type="submit" class="btn btn-primary">Submit Button</button>
 							<button type="reset" class="btn btn-primary">Reset Button</button>

@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use App\Model\State;
 use App\Model\Destination;
+use App\Model\Destinationimage;
 use Illuminate\Support\Facades\Input;
 
 class DestinationController extends Controller {
@@ -28,7 +29,8 @@ class DestinationController extends Controller {
 	public function getIndex()
 	{
 		$destination=Destination::where('deleted',0)
-					->with('state_name')
+					->with('state_name','primary_image')
+					->orderBy('location_name','ASC')
 					->get();		
 		return View('admin.destination.index', [		
 					'destinations' => $destination,
@@ -92,6 +94,7 @@ class DestinationController extends Controller {
 		$how_to_reach=$request->get('how_to_reach');
 		$when_to_visit=$request->get('when_to_visit');
 		$visibility=$request->get('visibility');
+		$type=$request->get('type');
 		
 		$destination = Destination::find($id);
 		$destination->state_id = $state_id;
@@ -100,6 +103,7 @@ class DestinationController extends Controller {
 		$destination->how_to_reach = $how_to_reach;
 		$destination->when_to_visit = $when_to_visit;
 		$destination->visibility = $visibility;		
+		$destination->type = $type;		
 		$destination->save();
 		
 		return redirect('admin/destination');
@@ -115,25 +119,26 @@ class DestinationController extends Controller {
 	}
 	
 	public function getUploadimage()
-	{
-		//dd("a");
-		//$destination=Destination::where('deleted',0)
-		//			->with('state_name')
-		//			->get();		
-		return View('admin.destination.uploadimage');
-		
+	{		
+		$destination=Destination::where('deleted',0)
+					->with('state_name')
+					->orderBy('location_name','ASC')
+					->get();		
+		return View('admin.destination.uploadimage', [		
+					'destinations' => $destination,
+				]);				
+			
 	}
 	
 	public function postStroreimage(Request $request)
 	{
 		
 		$input = Input::all();
-		dd($input);
-		// $file = Input::file('image');
-	//	$image->filePath = $name;
+		$destination_id=Input::get('destination_id');
+		
 		$file = array_get($input,'destination_image');
 		
-		$destinationPath = 'public/uploads';
+		$destinationPath = env('UPLOADS');
 		// GET THE FILE EXTENSION
 		$image_ext = $file->getClientOriginalExtension();
 		// RENAME THE UPLOAD WITH RANDOM NUMBER
@@ -142,11 +147,25 @@ class DestinationController extends Controller {
 		$final_image_name=$image_only_name.".".$image_ext;
 		// MOVE THE UPLOADED FILES TO THE DESTINATION DIRECTORY
 		$upload_success = $file->move($destinationPath, $final_image_name);
-
-
-       // $file->move(public_path().'/images/', $final_image_name);
-		dd($final_image_name);
-
-    
+		
+				
+		$destinationimage = new Destinationimage();
+		$destinationimage->image_name = $final_image_name;
+		$destinationimage->destination_id = $destination_id;
+		$destinationimage->status = 1;		
+		$destinationimage->save();
+		
+		$destination_primary = Destination::where('primary_image_id','>','0')
+								->where('id',$destination_id)
+								->count();
+		//dd($destination_primary);	
+		if($destination_primary==0)
+		{
+			$destination = Destination::find($destination_id);
+			$destination->primary_image_id = $destinationimage->id;			
+			$destination->save();
+		}
+		
+		return redirect('admin/destination');
 	}
 }
