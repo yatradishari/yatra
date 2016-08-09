@@ -285,16 +285,43 @@ CREATE TABLE IF NOT EXISTS `destinations` (
 --
 
 INSERT INTO `destinations` (`id`, `state_id`, `location_name`, `primary_image_id`, `description`, `how_to_reach`, `when_to_visit`, `status`, `visibility`, `deleted`, `type`, `added_by`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Munnar', 1, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(2, 1, 'Munnar', 1, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(3, 1, 'Munnar', 1, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(4, 1, 'Munnar', 1, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 0, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(5, 1, 'Munnar', 1, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(6, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:07:34', '2016-08-04 17:07:34'),
-(7, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:28', '2016-08-04 17:08:28'),
+(1, 1, 'Munnar4', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 0, 0, 1, 1, 0, '0000-00-00 00:00:00', '2016-08-04 19:16:13'),
+(2, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 1, 1, 0, '0000-00-00 00:00:00', '2016-08-04 19:18:46'),
+(3, 1, 'Munnar55', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-08 16:29:23'),
+(4, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-08 16:30:31'),
+(5, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(6, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:07:34', '2016-08-08 16:25:31'),
+(7, 35, 'Dight', 8, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:28', '2016-08-08 16:33:09'),
 (8, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:35', '2016-08-04 17:08:35'),
 (9, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 1, 1, 0, 1, 0, '2016-08-04 17:09:00', '2016-08-04 17:09:00'),
-(10, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 1, 1, 0, 1, 0, '2016-08-04 17:09:14', '2016-08-04 17:09:14');
+(10, 35, 'Dight6', 4, 'this is dight', 'Digha station', 'Any season', 1, 1, 0, 1, 0, '2016-08-04 17:09:14', '2016-08-08 16:27:34');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `destination_image`
+--
+
+DROP TABLE IF EXISTS `destination_image`;
+CREATE TABLE IF NOT EXISTS `destination_image` (
+  `id` bigint(30) NOT NULL AUTO_INCREMENT,
+  `destination_id` bigint(30) NOT NULL,
+  `image_name` varchar(255) NOT NULL,
+  `status` tinyint(2) NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+
+--
+-- Dumping data for table `destination_image`
+--
+
+INSERT INTO `destination_image` (`id`, `destination_id`, `image_name`, `status`, `created_at`, `updated_at`) VALUES
+(4, 10, '14706736544095.jpg', 1, '2016-08-08 16:27:34', '2016-08-08 16:27:34'),
+(5, 3, '14706737397421.jpg', 1, '2016-08-08 16:28:59', '2016-08-08 16:28:59'),
+(7, 7, '14706739051485.jpg', 1, '2016-08-08 16:31:45', '2016-08-08 16:31:45'),
+(8, 7, '14706739894403.jpg', 1, '2016-08-08 16:33:09', '2016-08-08 16:33:09');
 
 -- --------------------------------------------------------
 
@@ -330,6 +357,40 @@ CREATE TABLE IF NOT EXISTS `password_resets` (
   KEY `password_resets_email_index` (`email`),
   KEY `password_resets_token_index` (`token`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `settings`
+--
+
+DROP TABLE IF EXISTS `settings`;
+CREATE TABLE IF NOT EXISTS `settings` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `settings_key` varchar(255) NOT NULL,
+  `settings_value` text NOT NULL,
+  `status` tinyint(2) NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+
+--
+-- Dumping data for table `settings`
+--
+
+INSERT INTO `settings` (`id`, `settings_key`, `settings_value`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'SITE_NAME', 'uday', 1, '2016-08-08 22:40:00', '2016-08-08 17:29:56'),
+(2, 'META_KEYWORDS', 'meta,ff', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06'),
+(3, 'FACEBOOK_URL', 'ggg', 0, '2016-08-08 22:40:00', '2016-08-08 17:29:07'),
+(4, 'GOOGLE_URL', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(5, 'TWITTER_URL', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(6, 'CONTACT_EMAIL', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(7, 'CONTACT_PHONE', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(8, 'FACEBOOK_DESCRIPTION', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(9, 'FACEBOOK_IMAGE', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
+(10, 'META_DESCRIPTIONS', 'meta,ff', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06'),
+(11, 'GOOLE_ANALYTIC', '<script>\n  (function(i,s,o,g,r,a,m){i[''GoogleAnalyticsObject'']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,''script'',''https://www.google-analytics.com/analytics.js'',''ga'');\n\n  ga(''create'', ''UA-76571750-1'', ''auto'');\n  ga(''send'', ''pageview'');\n\n</script>', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06');
 
 -- --------------------------------------------------------
 
@@ -414,4 +475,4 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `name`, `email`, `password`, `user_type`, `approve`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'dfdfg', 'admin@admin.com', '$2y$10$/FcvO6UVwfvO0DFfqdJm5upIYhJb3dlRyUE3QIkTUk7v6Yt0dqxZ.', 1, 1, 'JGrAdeLxTKetXKTcAxHoLRPImgv7BMTN08moW3DjNg8ogRSiR1dx3XaS3UQZ', '0000-00-00 00:00:00', '2016-08-04 11:57:44');
+(1, 'admin', 'dfdfg', 'admin@admin.com', '$2y$10$/FcvO6UVwfvO0DFfqdJm5upIYhJb3dlRyUE3QIkTUk7v6Yt0dqxZ.', 1, 1, 'AvC9WCz6IoqORSfHFmQJEk6QvIDisUA1yTBRRo3Qz6DoVlv7YFkurmDqAqdH', '0000-00-00 00:00:00', '2016-08-08 12:22:59');
