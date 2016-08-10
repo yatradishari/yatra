@@ -381,7 +381,7 @@ CREATE TABLE IF NOT EXISTS `settings` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=14 ;
 
 --
 -- Dumping data for table `settings`
@@ -398,7 +398,9 @@ INSERT INTO `settings` (`id`, `settings_key`, `settings_value`, `status`, `creat
 (8, 'FACEBOOK_DESCRIPTION', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
 (9, 'FACEBOOK_IMAGE', '', 1, '2016-08-08 22:40:00', '2016-08-08 22:40:00'),
 (10, 'META_DESCRIPTIONS', 'meta,ff', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06'),
-(11, 'GOOLE_ANALYTIC', '<script>\n  (function(i,s,o,g,r,a,m){i[''GoogleAnalyticsObject'']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,''script'',''https://www.google-analytics.com/analytics.js'',''ga'');\n\n  ga(''create'', ''UA-76571750-1'', ''auto'');\n  ga(''send'', ''pageview'');\n\n</script>', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06');
+(11, 'GOOLE_ANALYTIC', '<script>\n  (function(i,s,o,g,r,a,m){i[''GoogleAnalyticsObject'']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,''script'',''https://www.google-analytics.com/analytics.js'',''ga'');\n\n  ga(''create'', ''UA-76571750-1'', ''auto'');\n  ga(''send'', ''pageview'');\n\n</script>', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06'),
+(12, 'COMPANY_NAME', 'Yatradishari', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06'),
+(13, 'TAGLINE', '', 1, '2016-08-08 22:40:00', '2016-08-08 17:30:06');
 
 -- --------------------------------------------------------
 
