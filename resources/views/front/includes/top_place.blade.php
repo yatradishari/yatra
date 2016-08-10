@@ -1,29 +1,37 @@
 <div class="container">
-	<h2 class="section-title">
-		Top place to visit
-	</h2>
-	<p class="section-subtitle">
-		Lorem Ipsum is simply dummy text of the industry.
-	</p>
-
-	<div class="owl-carousel visit-carousel" id="">
-		<div class="item">
-			<img src="front/assets/images/visit-1.png" alt="visit-image" class="img-responsive visit-item">
+	<h2 class="section-title">The newest holiday offers</h2>
+	<div class="row">
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<article class="offer wow bounceIn">
+				<figure class="featured-image"><img src="public/front/dummy/offer-thumbnail-1.jpg" alt=""></figure>
+				<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+				<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+				<a href="#" class="button">See details</a>
+			</article>
 		</div>
-		<div class="item">
-			<img src="front/assets/images/visit-2.png" alt="visit-image" class="img-responsive visit-item">
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<article class="offer wow bounceIn" data-wow-delay=".2s">
+				<figure class="featured-image"><img src="public/front/dummy/offer-thumbnail-2.jpg" alt=""></figure>
+				<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+				<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+				<a href="#" class="button">See details</a>
+			</article>
 		</div>
-		<div class="item">
-			<img src="front/assets/images/visit-3.png" alt="visit-image" class="img-responsive visit-item">
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<article class="offer wow bounceIn" data-wow-delay=".4s">
+				<figure class="featured-image"><img src="public/front/dummy/offer-thumbnail-3.jpg" alt=""></figure>
+				<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+				<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+				<a href="#" class="button">See details</a>
+			</article>
 		</div>
-		<div class="item">
-			<img src="front/assets/images/visit-1.png" alt="visit-image" class="img-responsive visit-item">
-		</div>
-		<div class="item">
-			<img src="front/assets/images/visit-2.png" alt="visit-image" class="img-responsive visit-item">
-		</div>
-		<div class="item">
-			<img src="front/assets/images/visit-3.png" alt="visit-image" class="img-responsive visit-item">
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<article class="offer wow bounceIn" data-wow-delay=".6s">
+				<figure class="featured-image"><img src="public/front/dummy/offer-thumbnail-4.jpg" alt=""></figure>
+				<h2 class="entry-title"><a href="">Nemo enim ipsam voluptatem</a></h2>
+				<p>Piditate non provident similique	 sunt in culpa qui oficia deserunt molitia animi est aborum et dolorum fuga</p>
+				<a href="#" class="button">See details</a>
+			</article>
 		</div>
 	</div>
-</div> <!-- /.container -->
+</div>

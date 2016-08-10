@@ -19,26 +19,27 @@
 		<script src="{{ asset('/public/front/js/ie-support/html5.js') }}"></script>		
 		<script src="{{ asset('/public/front/js/ie-support/respond.js') }}"></script>
 		<![endif]-->
-		@yield('style')
-		<script src="{{ asset('/public/front/js/jquery-1.11.1.min.js') }}"></script>		
-		<script src="{{ asset('/public/front/js/min/plugins-min.js') }}"></script>		
-		<script src="{{ asset('/public/front/js/min/app-min.js') }}"></script>
-		@yield('scripts')
 
 	</head>
 
-	<body>
+	<body class="slider-collapse">
 		
 		<div id="site-content">
 			
 			@include('front.includes.header') 	
 
 			<main class="content">
-				<div class="fullwidth-block">
-					@yield('content')
-				</div>
+				@include('front.includes.banner') 
 
-				
+				<div class="fullwidth-block features-section">
+					@include('front.includes.offer') 
+				</div>
+				<div class="fullwidth-block offers-section" data-bg-color="#f1f1f1">
+					@include('front.includes.top_place') 
+				</div>
+				<div class="fullwidth-block testimonial-section">
+					@include('front.includes.additional')
+				</div>
 			</main> <!-- .content -->
 
 			<footer class="site-footer wow fadeInUp">				
@@ -46,8 +47,10 @@
 				@include('front.includes.footer') 	
 			</footer> <!-- .site-footer -->
 
-		</div> <!-- #site-content -->
-		
+		</div> <!-- #site-content -->		
+		<script src="{{ asset('/public/front/js/jquery-1.11.1.min.js') }}"></script>		
+		<script src="{{ asset('/public/front/js/min/plugins-min.js') }}"></script>		
+		<script src="{{ asset('/public/front/js/min/app-min.js') }}"></script>
 		
 	</body>
 

@@ -1,65 +1,32 @@
 <div class="container">
-	<h2 class="section-title">
-		Our Blazzing offers
-	</h2>
-	<p class="section-subtitle">
-		Lorem Ipsum is simply dummy text of the industry.
-	</p>
 	<div class="row">
-		<div class="col-sm-3 col-xs-6">
-			<div class="offer-item">
-				<div class="icon">
-					<i class="ion-social-euro"></i>
-				</div>
-				<h3>
-					Affordable Pricing
-				</h3>
-				<p>
-					Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
-				</p>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="feature left-icon wow fadeInLeft" data-wow-delay=".3s">
+				<i class="icon-ticket"></i>
+				<h3 class="feature-title">Class aptent taciti</h3>
+				<p>Laborum expedita fugiat et quas quia! Odio dignissimos beatae aspernatur in vero culpa excepturi consequatur!</p>
 			</div>
-		</div> <!-- /.col-md-3 -->
-
-		<div class="col-sm-3 col-xs-6">
-			<div class="offer-item">
-				<div class="icon">
-					<i class="ion-ios-home"></i>
-				</div>
-				<h3>
-					High class Hotels
-				</h3>
-				<p>
-					Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
-				</p>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="feature left-icon wow fadeInLeft">
+				<i class="icon-plane"></i>
+				<h3 class="feature-title">Class aptent taciti</h3>
+				<p>Lectetur recusandae quasi repellendus accusamus ipsa sed quibusdam officia aspernatur natus itaque, asperiores impedit numquam dolorum.</p>
 			</div>
-		</div> <!-- /.col-md-3 -->
-
-		<div class="col-sm-3 col-xs-6">
-			<div class="offer-item">
-				<div class="icon">
-					<i class="ion-android-bus"></i>
-				</div>
-				<h3>
-					Luxury Transport
-				</h3>
-				<p>
-					Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
-				</p>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="feature left-icon wow fadeInRight">
+				<i class="icon-jetski"></i>
+				<h3 class="feature-title">Class aptent taciti</h3>
+				<p>L culpa ex dolorum ipsa, maxime soluta repudiandae officia corrupti. Doloribus iste voluptatibus nostrum?</p>
 			</div>
-		</div> <!-- /.col-md-3 -->
-
-		<div class="col-sm-3 col-xs-6">
-			<div class="offer-item">
-				<div class="icon">
-					<i class="ion-ios-locked"></i>
-				</div>
-				<h3>
-					Highest Security
-				</h3>
-				<p>
-					Class aptent taciti sociosutn tora torquent conub nost reptos himenaeos.
-				</p>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="feature left-icon wow fadeInRight" data-wow-delay=".3s">
+				<i class="icon-shuttelcock"></i>
+				<h3 class="feature-title">Class aptent taciti</h3>
+				<p>Lam sit, facere dicta libero ipsa. Repellat deleniti dignissimos, excepturi minima voluptatibus mollitia adipisci iusto.</p>
 			</div>
-		</div> <!-- /.col-md-3 -->
-	</div> <!-- /.row -->
-</div> <!-- /.container -->
+		</div>
+	</div>
+</div>

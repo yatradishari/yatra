@@ -1,93 +1,45 @@
 <div class="container">
-	<h2 class="section-title">
-		Additional services
-	</h2>
-	<p class="section-subtitle">
-		Lorem Ipsum is simply dummy text of the industry.
-	</p>
+	<h2 class="section-title">Testimonials</h2>
 	<div class="row">
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-1.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Photography
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-2.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Cycling
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-		
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-3.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Waking
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-4.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Skiing
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-5.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Sea beach
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-
-		<div class="col-md-4 col-sm-6">
-			<div class="custom-table">
-				<img src="front/assets/images/add-srvc-6.png" alt="" class="add-srvc-img">
-				<div class="add-srvc-detail">
-					<h4 class="add-srvc-heading">
-						Hill tracking
-					</h4>
-					<p class="add-srvc">
-						Etiam pharetra ut ante eget ehy efficitur. Nullam quis felis at nunc vehicula sollicitudin euliquam quis felis atblan dit.
-					</p>
-				</div> <!-- /.add-srvc-detail -->
-			</div> <!-- /.custom-table -->
-		</div> <!-- /.col-md-4 col-sm-6 -->
-	</div> <!-- /.row -->
-</div> <!-- /.container -->
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="testimonial wow fadeInUp">
+				<figure class="avatar"><img src="public/front/dummy/person-1.jpg" alt=""></figure>
+				<blockquote class="testimonial-body">
+					<p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+					<cite>Jessica Tracy</cite>
+					<span>Creative agency CEO</span>
+				</blockquote>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="testimonial wow fadeInUp" data-wow-delay=".2s">
+				<figure class="avatar"><img src="public/front/dummy/person-2.jpg" alt=""></figure>
+				<blockquote class="testimonial-body">
+					<p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+					<cite>John Smith</cite>
+					<span>Traveler</span>
+				</blockquote>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="testimonial wow fadeInUp" data-wow-delay=".4s">
+				<figure class="avatar"><img src="public/front/dummy/person-3.jpg" alt=""></figure>
+				<blockquote class="testimonial-body">
+					<p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+					<cite>Susan Webb</cite>
+					<span>Hairdresser</span>
+				</blockquote>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-6 col-xs-12">
+			<div class="testimonial wow fadeInUp" data-wow-delay=".6s">
+				<figure class="avatar"><img src="public/front/dummy/person-4.jpg" alt=""></figure>
+				<blockquote class="testimonial-body">
+					<p>Consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+					<cite>Sarah Brown</cite>
+					<span>Athlete</span>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</div>

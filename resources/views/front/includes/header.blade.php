@@ -1,22 +1,34 @@
-<div class="container">
-<!-- Brand and toggle get grouped for better mobile display -->
-	<div class="navbar-header">
-		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</button>
-		<a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> Yatra <span>dishari</span></a>
-	</div> <!-- /.navbar-header -->
-
-<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="destination">Place to Go</a></li>
-			<li><a href="about.html">Where to stay</a></li>
-			<!-- <li><a href="services.html">services</a></li>-->
-			<li><a href="contact">contact</a></li>
-		</ul> <!-- /.nav -->
-	</div><!-- /.navbar-collapse -->
-</div><!-- /.container -->
+<header class="site-header wow fadeInDown">
+	<div class="container">
+		<div class="header-content">
+			<div class="branding">
+				<img src="{!!asset('public/front/images/logo.png')!!}" alt="Company Name" class="logo">
+				<h1 class="site-title"><a href="{{ url('home') }}">{{ settings('COMPANY_NAME') }}</a></h1>
+				<small class="site-description">{{ settings('TAGLINE') }}</small>
+			</div>
+			
+			<nav class="main-navigation">
+				<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+				<ul class="menu">
+					<li class="menu-item"><a href="{{ url('destination') }}">Where to go</a></li>
+					<li class="menu-item"><a href="our-offer.html">Our Offer</a></li>
+					<li class="menu-item"><a href="customer-protection.html">Customer Protection</a></li>
+					<li class="menu-item"><a href="{{ url('contact') }}">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<div class="social-links">
+				<a href="{{ settings('FACEBOOK_URL') }}" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="{{ settings('TWITTER_URL') }}" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="{{ settings('GOOGLE_URL') }}" class="google-plus"><i class="fa fa-google-plus"></i></a>
+				<a href="{{ settings('SITE_NAME') }}" class="pinterest"><i class="fa fa-pinterest"></i></a>
+			</div>
+			
+		</div>
+		
+		<!-- <nav class="breadcrumbs">
+			<a href="{{ url('home') }}">Home</a> &rarr;
+			<span>Our Offer</span>
+		</nav> -->
+	</div>
+</header> <!-- .site-header -->
