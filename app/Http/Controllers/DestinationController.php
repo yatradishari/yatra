@@ -37,13 +37,27 @@ class DestinationController extends Controller {
 	public function getIndex()
 	{
 		$destinations=Destination::where('visibility',1)						 
-						 
+							->where('deleted',0)
 							->with('state_name','primary_image')	
 							 ->orderBy('location_name','ASC')		
 						  ->paginate(4);	
 		//	dd($destination->toArray());				  
 		//return view('front.destination')->with('destination'=>$destination);
 		return View('front.destination', [ 'destinations' => $destinations]);
+	}
+	
+	public function getDetails($id)
+	{
+		
+		$destinations=Destination::where('visibility',1)						 
+							->where('deleted',0)
+							->where('id',$id)
+							->with('state_name','primary_image')	
+								
+						  ->get();	
+			//dd($destinations->toArray());				  
+		//return view('front.destination')->with('destination'=>$destination);
+		return View('front.destinationdetails', [ 'destinations' => $destinations]);
 	}
 
 }

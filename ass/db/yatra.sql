@@ -288,13 +288,13 @@ INSERT INTO `destinations` (`id`, `state_id`, `location_name`, `primary_image_id
 (1, 1, 'Munnar4', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 0, 0, 1, 1, 0, '0000-00-00 00:00:00', '2016-08-04 19:16:13'),
 (2, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 1, 1, 0, '0000-00-00 00:00:00', '2016-08-04 19:18:46'),
 (3, 1, 'Munnar55', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-08 16:29:23'),
-(4, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-08 16:30:31'),
-(5, 1, 'Munnar', 0, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(6, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:07:34', '2016-08-08 16:25:31'),
-(7, 35, 'Dight', 8, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:28', '2016-08-08 16:33:09'),
-(8, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:35', '2016-08-04 17:08:35'),
-(9, 35, 'Dight', 0, 'this is dight', 'Digha station', 'Any season', 1, 1, 0, 1, 0, '2016-08-04 17:09:00', '2016-08-04 17:09:00'),
-(10, 35, 'Dight6', 4, 'this is dight', 'Digha station', 'Any season', 1, 1, 0, 1, 0, '2016-08-04 17:09:14', '2016-08-08 16:27:34');
+(4, 1, 'Munnar', 15, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-09 17:14:34'),
+(5, 1, 'Munnar', 16, 'Sprawling tea plantations surround the serene hills of Munnar, which attract adventure travelers hungry for paragliding, treks to Anaimudi (South India’s highest peak) and hikes originating at the confluence of three mountain streams.\r\n\r\nThe stone Christ Church, built by the British in 1910, is adorned with renowned works of stained glass, and Eravikulam National Park, about 10 miles away, is home to equally colorful wildlife, including the endangered Nilgiri Tahr (ibex), ruddy mongoose and 120 bird species.', '', '', 1, 1, 0, 1, 0, '0000-00-00 00:00:00', '2016-08-09 17:14:44'),
+(6, 35, 'Dight1', 9, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:07:34', '2016-08-09 17:12:58'),
+(7, 35, 'Dight2', 8, 'this is dight', 'Digha station', 'Any season', 0, 1, 1, 1, 0, '2016-08-04 17:08:28', '2016-08-09 17:14:15'),
+(8, 35, 'Dight4', 11, 'this is dight', 'Digha station', 'Any season', 0, 1, 0, 1, 0, '2016-08-04 17:08:35', '2016-08-09 17:13:21'),
+(9, 35, 'Dight3', 0, 'this is dight', 'Digha station', 'Any season', 1, 1, 1, 1, 0, '2016-08-04 17:09:00', '2016-08-09 17:14:19'),
+(10, 35, 'Dight6', 4, 'this is dight', 'Digha station', 'Any season', 1, 1, 1, 1, 0, '2016-08-04 17:09:14', '2016-08-09 17:14:24');
 
 -- --------------------------------------------------------
 
@@ -311,7 +311,7 @@ CREATE TABLE IF NOT EXISTS `destination_image` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=9 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
 
 --
 -- Dumping data for table `destination_image`
@@ -321,7 +321,15 @@ INSERT INTO `destination_image` (`id`, `destination_id`, `image_name`, `status`,
 (4, 10, '14706736544095.jpg', 1, '2016-08-08 16:27:34', '2016-08-08 16:27:34'),
 (5, 3, '14706737397421.jpg', 1, '2016-08-08 16:28:59', '2016-08-08 16:28:59'),
 (7, 7, '14706739051485.jpg', 1, '2016-08-08 16:31:45', '2016-08-08 16:31:45'),
-(8, 7, '14706739894403.jpg', 1, '2016-08-08 16:33:09', '2016-08-08 16:33:09');
+(8, 7, '14706739894403.jpg', 1, '2016-08-08 16:33:09', '2016-08-08 16:33:09'),
+(9, 6, '147076270210704.jpg', 1, '2016-08-09 17:11:42', '2016-08-09 17:11:42'),
+(10, 7, '14707627207700.jpg', 1, '2016-08-09 17:12:00', '2016-08-09 17:12:00'),
+(11, 8, '14707627304168.jpg', 1, '2016-08-09 17:12:10', '2016-08-09 17:12:10'),
+(12, 8, '14707627558264.jpg', 1, '2016-08-09 17:12:35', '2016-08-09 17:12:35'),
+(13, 6, '14707628233307.jpg', 1, '2016-08-09 17:13:43', '2016-08-09 17:13:43'),
+(14, 7, '14707628343760.jpg', 1, '2016-08-09 17:13:54', '2016-08-09 17:13:54'),
+(15, 4, '1470762874112.jpg', 1, '2016-08-09 17:14:34', '2016-08-09 17:14:34'),
+(16, 5, '14707628842395.jpg', 1, '2016-08-09 17:14:44', '2016-08-09 17:14:44');
 
 -- --------------------------------------------------------
 
@@ -475,4 +483,4 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `name`, `email`, `password`, `user_type`, `approve`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'dfdfg', 'admin@admin.com', '$2y$10$/FcvO6UVwfvO0DFfqdJm5upIYhJb3dlRyUE3QIkTUk7v6Yt0dqxZ.', 1, 1, 'AvC9WCz6IoqORSfHFmQJEk6QvIDisUA1yTBRRo3Qz6DoVlv7YFkurmDqAqdH', '0000-00-00 00:00:00', '2016-08-08 12:22:59');
+(1, 'admin', 'dfdfg', 'admin@admin.com', '$2y$10$/FcvO6UVwfvO0DFfqdJm5upIYhJb3dlRyUE3QIkTUk7v6Yt0dqxZ.', 1, 1, 'fHd0joYcTQSnGpnmkcHtVFEH6ZNobKEdI1bYdqJUMQsBQ2e0Vo4hJxhEDsX1', '0000-00-00 00:00:00', '2016-08-09 10:56:19');

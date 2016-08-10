@@ -18,6 +18,7 @@ Route::get('/', 'WelcomeController@index');
 
 
 Route::controller('destination', 'DestinationController');
+Route::controller('contact', 'ContactController');
 
 Route::group(['namespace'=> 'Admin' , 'middleware' => 'auth'] , function(){	
 	Route::controller('admin/dashboard'	, 'DashboardController' 	); 	

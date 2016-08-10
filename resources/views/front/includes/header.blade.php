@@ -16,7 +16,7 @@
 			<li class="active"><a href="destination">Place to Go</a></li>
 			<li><a href="about.html">Where to stay</a></li>
 			<!-- <li><a href="services.html">services</a></li>-->
-			<li><a href="contact.html">contact</a></li>
+			<li><a href="contact">contact</a></li>
 		</ul> <!-- /.nav -->
 	</div><!-- /.navbar-collapse -->
 </div><!-- /.container -->

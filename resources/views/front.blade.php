@@ -20,6 +20,8 @@
 		<link rel="stylesheet" href="{{ asset('/public/front/assets/css/flexslider.css') }}" type="text/css">
 		<link rel="stylesheet" href="{{ asset('/public/front/assets/css/main.css') }}">	
 		<link rel="stylesheet" href="{{ asset('/public/front/assets/css/custom.css') }}">	
+		<link rel="stylesheet" href="{{ asset('/public/front/assets/css/contact.css') }}">	
+		
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 				<!--[if lt IE 9]>
 					<script src="/public/front/assets/js/html5shiv.js"></script>
@@ -55,11 +57,6 @@
 	<script src="{{ asset('/public/front/assets/js/contact.js') }}"></script>
 	<script src="{{ asset('/public/front/assets/js/jquery.flexslider.js') }}"></script>
 	<script src="{{ asset('/public/front/assets/js/script.js') }}"></script>
-
-
-
-
-
 
 </body>
 </html>
