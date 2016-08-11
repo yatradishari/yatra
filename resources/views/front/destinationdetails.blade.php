@@ -5,10 +5,10 @@
 		<div class="col-md-7 wow fadeInLeft">
 			<h2 class="section-title">{{ $destinations[0]->location_name}}</h2>
 			<figure>
-				@if(isset($destinations[0]->primary_image->image_name))
+				@if(file_exists(env('IMAGE_SHOW_PATH').env('UPLOADS').$destinations[0]->primary_image->image_name))
 					<img src="<?php echo env('IMAGE_SHOW_PATH').env('UPLOADS').$destinations[0]->primary_image->image_name;?>"  alt="{{ $destinations[0]->location_name}}">
 					@else
-					<img src="public/admin/images/no_image.png"  alt="{{ $destinations[0]->location_name}}">
+					<img src="<?php echo env('IMAGE_SHOW_PATH');?>public/admin/images/no_image.png"  alt="{{ $destinations[0]->location_name}}">
 				@endif
 			</figure>
 			<p>

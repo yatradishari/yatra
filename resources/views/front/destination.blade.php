@@ -24,7 +24,7 @@
 		<div class="filterable-item south-america">
 			<article class="offer-item">
 				<figure class="featured-image">
-					@if(isset($destination->primary_image->image_name))
+					@if(file_exists(env('IMAGE_SHOW_PATH').env('UPLOADS').$destination->primary_image->image_name))
 						<img src="<?php echo env('UPLOADS').$destination->primary_image->image_name;?>"  alt="{{ $destination->location_name}}">
 					@else
 						<img src="public/admin/images/no_image.png"  alt="{{ $destination->location_name}}">
