@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="branding pull-left">
 			<img src="{!!asset('public/front/images/logo.png')!!}" alt="Company Name" class="logo">
-			<h1 class="site-title"><a href="{{ url('home') }}">{{ settings('COMPANY_NAME') }}</a></h1>
+			<h1 class="site-title"><a href="{{ url('/') }}">{{ settings('COMPANY_NAME') }}</a></h1>
 			<small class="site-description">{{ settings('TAGLINE') }}</small>
 		</div>
 
