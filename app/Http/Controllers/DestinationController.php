@@ -52,12 +52,16 @@ class DestinationController extends Controller {
 		$destinations=Destination::where('visibility',1)						 
 							->where('deleted',0)
 							->where('id',$id)
-							->with('state_name','primary_image')	
-								
-						  ->get();	
-			//dd($destinations->toArray());				  
+							->with('state_name','primary_image')								
+							->get();	
+							
+		$destinationimage=Destinationimage::where('destination_id',$id)
+							->where('status',1)
+							->orderBy('id','DESC')
+							->get();
+		//dd($destinationimage->toArray());				  
 		//return view('front.destination')->with('destination'=>$destination);
-		return View('front.destinationdetails', [ 'destinations' => $destinations]);
+		return View('front.destinationdetails', [ 'destinations' => $destinations, 'destinationimage' => $destinationimage]);
 	}
 
 }
