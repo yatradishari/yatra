@@ -22,7 +22,7 @@
 					<a href="{{ URL::to('/admin/destination') }}">Destination List</a>
 				</li>
 				<li>
-					<a href="{{ URL::to('/admin/destination/uploadimage') }}">Images</a>
+					<a href="{{ URL::to('/admin/destination/image') }}">Images</a>
 				</li>
 				
 			</ul>

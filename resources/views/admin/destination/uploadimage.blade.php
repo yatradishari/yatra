@@ -22,7 +22,9 @@
 								<label>State</label>
 								<select name="destination_id" class="form-control">
 									@foreach($destinations as $destination)
-									<option value="{{ $destination->id }}">{{ $destination->location_name }}</option>
+									<option @if($id==$destination->id)selected @endif value="{{ $destination->id }}">
+										{{ $destination->location_name }}
+									</option>
 									@endforeach									
 								</select>
 							</div>

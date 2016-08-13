@@ -118,7 +118,15 @@ class DestinationController extends Controller {
 		return redirect('admin/destination');
 	}
 	
-	public function getUploadimage()
+	public function getImage()
+	{
+		$destinationimage=Destinationimage::where('status',1)->where('deleted',0)->get();
+		
+		return View('admin.destination.image_list', [		
+					'destinationimages' => $destinationimage,					
+				]);
+	}
+	public function getUploadimage($id='')
 	{		
 		$destination=Destination::where('deleted',0)
 					->with('state_name')
@@ -126,8 +134,19 @@ class DestinationController extends Controller {
 					->get();		
 		return View('admin.destination.uploadimage', [		
 					'destinations' => $destination,
+					'id' =>$id,
 				]);				
 			
+	}
+	
+	public function getDeleteimage($id)
+	{	
+	//	dd($id);
+		$destination = Destinationimage::find($id);
+		$destination->deleted = 1;		
+		$destination->save();
+		
+		return redirect('admin/destination/image');
 	}
 	
 	public function postStroreimage(Request $request)
