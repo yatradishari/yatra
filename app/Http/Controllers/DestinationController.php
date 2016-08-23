@@ -41,7 +41,7 @@ class DestinationController extends Controller {
 							->with('state_name','primary_image')	
 							 ->orderBy('location_name','ASC')		
 						  ->paginate(4);	
-		//	dd($destination->toArray());				  
+			//dd($destinations->toArray());				  
 		//return view('front.destination')->with('destination'=>$destination);
 		return View('front.destination', [ 'destinations' => $destinations]);
 	}
