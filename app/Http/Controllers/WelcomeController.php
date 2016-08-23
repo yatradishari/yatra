@@ -3,6 +3,7 @@
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Model\Destination;
+use App\Model\Banner;
 use App\Model\State;
 use App\Model\Destinationimage;
 
@@ -40,8 +41,13 @@ class WelcomeController extends Controller {
 							->where('deleted',0)
 							->with('state_name','primary_image')	
 							 ->orderBy('location_name','ASC')		
-						  ->paginate(4);
-		return view('home', [ 'destinations' => $destinations]);
+							->paginate(4);
+							
+		$banner=Banner::where('deleted',0)->get();
+		return view('home', [ 
+			'destinations' => $destinations,
+			'banners' => $banner
+		]);
 	}
 
 }
